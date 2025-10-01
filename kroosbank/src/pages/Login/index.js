@@ -1,7 +1,11 @@
+import ImagemLogin from '../../components/ImageLogin';
+
+import { Container } from './style'
+
 export default function Login() {
     return(
-        <div>
-            a
-        </div>
+        <Container>
+            <ImagemLogin />
+        </Container>
     );
 }
